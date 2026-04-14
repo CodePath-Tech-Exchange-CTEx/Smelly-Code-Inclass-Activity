@@ -12,6 +12,7 @@ Clone your copy to your local workspace. Then:
 cd ise-5.2.2-dry-code # cd into directory
 python -m venv venv # initialize venv
 source venv/bin/activate # activate venv
+
 pip install -r requirements.txt # install libraries
 ```
 
