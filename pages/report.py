@@ -48,19 +48,11 @@ st.set_page_config(page_title="Report")
 st.markdown("# Report")
 render_sidebar()
 
-st.write(
-    """
-    Here is a page with a report on it.
-    """
-)
+st.write("Here is a page with a report on it.")
 
-st.bar_chart({"data": [1, 5, 2, 6, 2, 1]})
+st.bar_chart([1, 5, 2, 6, 2, 1])
 
-st.write(
-    """
-    Look at those numbers. Amazing.
-    """
-)
+st.write("Look at those numbers. Amazing.")
 
 with st.expander("Company Info"):
     render_company_info()
